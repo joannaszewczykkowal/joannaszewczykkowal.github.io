@@ -1,0 +1,142 @@
+/*general style start*/
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: #231f20;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 1em;
+    margin: 0;
+
+
+}
+
+#main-header,
+footer {
+    background-color: #fff;
+}
+
+#content {
+    background-color: #edebee;
+    background-image: url('../img/backgroun-newsletter.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 40%;
+    min-height: 70vh;
+    max-width: 1850px;
+    margin: 0;
+    padding: 30px;
+
+}
+
+/*general style stop*/
+
+/*header start*/
+
+#main-header {
+    height: 15vh;
+    min-height: 60px;
+    max-width: 1850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+#main-header img {
+    height: 5vh;
+    min-height: 31px;
+}
+
+/*header stop*/
+
+/*main-info start*/
+
+#main-info p {
+    margin: 0px;
+}
+
+#main-info p:first-child {
+    color: #d9232e;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+/*main-info stop*/
+
+/*section icon start*/
+
+#icon figure {
+    display: inline-block;
+    width: 20%;
+    margin: 0 7vh 5vh 0;
+}
+
+.icons {
+    height: 10vh;
+    margin: 5vh 0 2vh;
+}
+
+#icon figure h1 {
+    font-weight: 500;
+
+}
+
+#icon figure p {
+    font-size: 0.9em;
+
+}
+
+/*section icon stop*/
+
+/*section comment start*/
+
+#coment span {
+    color: #d9232e;
+    font-weight: bold;
+    margin-bottom: 4em;
+}
+
+/*section comment stop*/
+
+/*section buttons start*/
+
+.button {
+    border-radius: 8px;
+    padding: 10px 0;
+    color: #fff;
+    width: 10vw;
+    border: 0px;
+    margin-bottom: 10em;
+    margin-right: 4vw;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: "Rajdhani";
+
+}
+
+#btn-red {
+    background-color: #d9232e;
+}
+
+#btn-green {
+    background-color: #57a800;
+}
+
+/*section buttons stop*/
+
+/*footer start*/
+
+footer {
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+/*footer stop*/
+
+.remove {
+    display: none;
+}
